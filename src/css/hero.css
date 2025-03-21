@@ -109,7 +109,7 @@
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 2x) {
-  .hero {
+  .hero .container {
     background-image: linear-gradient(
         rgba(17, 19, 31, 0.1),
         rgba(17, 19, 31, 0.1)
@@ -128,7 +128,6 @@
         rgba(17, 19, 31, 0.1)
       ),
       url(/img/hero/background-pc.jpg);
-
     padding: 235px 139px 215px;
   }
   .hero-title {
@@ -137,7 +136,7 @@
   }
 }
 @media screen and (min-width: 1280px) and (min-resolution: 2x) {
-  .hero {
+  .hero .container {
     background-image: linear-gradient(
         rgba(17, 19, 31, 0.1),
         rgba(17, 19, 31, 0.1)
@@ -161,7 +160,7 @@
   }
 }
 @media screen and (min-width: 1440px) and (min-resolution: 2x) {
-  .hero {
+  .hero .container {
     background-image: linear-gradient(
         rgba(17, 19, 31, 0.1),
         rgba(17, 19, 31, 0.1)
