@@ -1,0 +1,99 @@
+/* Глобальні стилі */
+.about-us {
+    padding: 40px 20px;
+    background: #fbfbfb;
+    border-radius: 24px;
+}
+
+.container-about {
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* Контейнер контенту */
+.about-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* Заголовок та тексти */
+.about-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.about-text-two {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #040306;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+/* Зображення */
+.about-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 0 24px 0 0;
+    margin-top: 20px;
+}
+
+.about-img {
+    border-radius: 24px;
+}
+
+/* Мобільна версія (320px - 375px) */
+@media (min-width: 320px) {}
+
+/* Мобільна версія стає адаптивною (від 375px) */
+@media (min-width: 375px) {}
+
+/* Планшети (768px) */
+@media (min-width: 768px) {
+    .about-title {
+        font-size: 48px;
+    }
+
+    .about-text {
+        font-size: 23px;
+    }
+
+    .about-text-two {
+        font-size: 13px;
+        line-height: 1.15;
+    }
+}
+
+/* Десктопи 1280px */
+@media (min-width: 1280px) {}
+
+/* Десктопи 1440px */
+@media (min-width: 1440px) {}
