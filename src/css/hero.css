@@ -2,7 +2,7 @@
   padding: 0;
 }
 
-.hero {
+.hero .container {
   margin: 0 auto;
   min-width: 320px;
   max-width: 375px;
@@ -14,6 +14,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-top: 260px;
+  padding-bottom: 302px;
 }
 
 @media screen and (min-resolution: 2x) {
@@ -24,11 +26,6 @@
       ),
       url(/img/hero/background-mobile-@2x.jpg);
   }
-}
-
-.hero .container {
-  padding-top: 260px;
-  padding-bottom: 302px;
 }
 
 .hero-title {
@@ -74,16 +71,13 @@
 
 /*#region Tablet*/
 @media only screen and (min-width: 768px) {
-  .hero {
+  .hero .container {
     max-width: 100%;
     background-image: linear-gradient(
         rgba(17, 19, 31, 0.1),
         rgba(17, 19, 31, 0.1)
       ),
       url(/img/hero/background-tablet.jpg);
-  }
-
-  .hero .container {
     padding-top: 280px;
     padding-bottom: 282px;
     padding-left: 58px;
@@ -91,6 +85,8 @@
   }
 
   .hero-title {
+    display: block;
+    margin: 0 auto 24px;
     max-width: 652px;
     font-size: 70px;
   }
@@ -126,14 +122,13 @@
 
 /*#region Desktop*/
 @media only screen and (min-width: 1280px) {
-  .hero {
+  .hero .container {
     background-image: linear-gradient(
         rgba(17, 19, 31, 0.1),
         rgba(17, 19, 31, 0.1)
       ),
       url(/img/hero/background-pc.jpg);
-  }
-  .hero .container {
+
     padding: 235px 139px 215px;
   }
   .hero-title {
@@ -155,14 +150,13 @@
 
 /*#region Desctop-2K*/
 @media only screen and (min-width: 1440px) {
-  .hero {
+  .hero .container {
     background-image: linear-gradient(
         rgba(17, 19, 31, 0.1),
         rgba(17, 19, 31, 0.1)
       ),
       url(/img/hero/background-pc2k.jpg);
-  }
-  .hero .container {
+
     padding: 235px 219px 215px;
   }
 }
