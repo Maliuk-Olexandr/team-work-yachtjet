@@ -19,7 +19,7 @@
 }
 
 @media screen and (min-resolution: 2x) {
-  .hero {
+  .hero .container {
     background-image: linear-gradient(
         rgba(17, 19, 31, 0.1),
         rgba(17, 19, 31, 0.1)
