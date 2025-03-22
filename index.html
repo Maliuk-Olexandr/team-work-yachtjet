@@ -19,7 +19,7 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/team-work-yachtjet/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/team-work-yachtjet/assets/index-C-VY_WzO.css">
+    <link rel="stylesheet" crossorigin href="/team-work-yachtjet/assets/index--k9Z-7AX.css">
   </head>
   <body>
     <header class="header">
@@ -174,10 +174,34 @@
   <div class="container">advantages</div>
 </section>
 
-      <section class="section">
-  <div class="container">rent-yacht</div>
+      <section class="section rent-yacht-section">
+  <div class="container rent-yacht-container">
+    <div class="rent-wrap">
+      <h2 class="rent-yacht-title" id="rent-yacht">
+        Rent a yacht now
+      </h2>
+      <form class="rent-yacht-form" name="rent-form">
+        <label aria-label="Full Name"><input class="form-input" type="text" name="full-name" placeholder="Full Name"
+            required></label>
+        <label aria-label="Email"><input class="form-input" type="email" name="email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Email" required></label>
+        <label aria-label="Phone number"><input class="form-input" type="tel" name="phone-number"
+            pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$" title="+xx-xxx-xxx-xx-xx" placeholder="Phone number"
+            required></label>
+        <label aria-label="Comment"><textarea class="form-textarea" name="comment"
+            placeholder="Comment"></textarea></label>
+        <button class="form-btn" type="submit">Send</button>
+      </form>
+    </div>
+    <picture class="rent-picture">
+      <source srcset="/img/rent-yacht/pc2K.jpg 1x, /team-work-yachtjet/assets/pc2k@2x-KvnP6R9J.jpg 2x" media="(min-width: 1440px)" />
+      <source srcset="/team-work-yachtjet/assets/pc-IyI98kQZ.jpg 1x, /team-work-yachtjet/assets/pc@2x-CSB-jQIQ.jpg 2x" media="(min-width: 1280px)" />
+      <source srcset="/team-work-yachtjet/assets/tabl-SZRaMC-y.jpg 1x, /team-work-yachtjet/assets/tabl@2x-0-isOh-P.jpg 2x" media="(min-width: 768px)" />
+      <source srcset="/team-work-yachtjet/assets/mob-EIakYkIp.jpg 1x, /team-work-yachtjet/assets/mob@2x-HdRAKTyN.jpg 2x" media="(max-width: 767px)" />
+      <img class="rent-img" src="../img/rent-yacht/pride-pc.jpg" alt="LUXURY YAHTS" width="768" height="536" />
+    </picture>
+  </div>
 </section>
-
       <section class="section">
   <div class="container">reviews</div>
 </section>
