@@ -1,85 +1,113 @@
 <section class="section">
-  <h2 class="visually-hidden">Advantages</h2>
+  <h2 class="visually-hidden">Advantages For Best</h2>
   <div class="container container-advantages">
     <div class="activities-container">
-    
-      <ul class="activities-list">
-        <li class="activity-item">
+      <ol class="activities-list">
+        <li class="activity-item activity-item-one">
+          <div class="activity-top">
+            <!-- псевдоелемент для номера буде тут -->
+            <!-- лінія буде тут же -->
+          </div>
 
-      <div class="activity-top">
-        <!-- псевдоелемент для номера буде тут -->
-        <!-- лінія буде тут же -->
-      </div>
-
-        <!-- <span class="activities-list-li">01</span> -->
-        <p class="activity-description activity-description-one">Swimming and water sports: try your hand at water
-          skiing</p>
+          <!-- <span class="activities-list-li">01</span> -->
+          <p class="activity-description activity-description-one">
+            Swimming and water sports: try your hand at water skiing
+          </p>
         </li>
 
-<li class="activity-item">
+        <li class="activity-item">
+          <div class="activity-top">
+            <!-- псевдоелемент для номера буде тут -->
+            <!-- лінія буде тут же -->
+          </div>
 
-      <div class="activity-top">
-        <!-- псевдоелемент для номера буде тут -->
-        <!-- лінія буде тут же -->
-      </div>
+          <!-- <span class="activities-list-li">02</span> -->
+          <p class="activity-description activity-description-two">
+            Fishing: try to catch your own dinner
+          </p>
+        </li>
 
-  <!-- <span class="activities-list-li">02</span> -->
-  <p class="activity-description activity-description-two">Fishing: try to catch your own dinner</p>
-</li>
+        <li class="activity-item">
+          <div class="activity-top">
+            <!-- псевдоелемент для номера буде тут -->
+            <!-- лінія буде тут же -->
+          </div>
 
+          <!-- <span class="activities-list-li">03</span> -->
+          <p class="activity-description activity-description-tree">
+            Sightseeing tours: take a shore or island tour, enjoy the views and
+            sunsets from the water
+          </p>
+        </li>
 
-<li class="activity-item">
+        <li class="activity-item activity-item-four">
+          <div class="activity-top">
+            <!-- псевдоелемент для номера буде тут -->
+            <!-- лінія буде тут же -->
+          </div>
 
-      <div class="activity-top">
-        <!-- псевдоелемент для номера буде тут -->
-        <!-- лінія буде тут же -->
-      </div>
-
-  <!-- <span class="activities-list-li">03</span> -->
-  <p class="activity-description activity-description-tree">Sightseeing tours: take a shore or island tour, enjoy the views and sunsets from
-  the water</p>
-</li>
-
-
-<li class="activity-item activity-item-four">
-
-      <div class="activity-top">
-        <!-- псевдоелемент для номера буде тут -->
-        <!-- лінія буде тут же -->
-      </div>
-
-  <!-- <span class="activities-list-li">04</span> -->
-  <p class="activity-description activity-description-four">Rest and relaxation: read a book or listen to music while enjoying the outdoor
-  atmosphere.</p>
-</li>
-
-      </ul>
+          <!-- <span class="activities-list-li">04</span> -->
+          <p class="activity-description activity-description-four">
+            Rest and relaxation: read a book or listen to music while enjoying
+            the outdoor atmosphere.
+          </p>
+        </li>
+      </ol>
     </div>
     <div class="image-container">
+      <picture>
+        <!-- Для великих екранів (1440px) -->
+        <source
+          srcset="
+            ../img/advantages/adventages-pc2k.jpg     1x,
+            ../img/advantages/adventages-pc2k-@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+          width="540"
+          height="424"
+        />
 
-<picture>
-  <!-- Для великих екранів (1440px) -->
-  <source srcset="../img/advantages/adventages-pc2k.jpg 1x, 
-                      ../img/advantages/adventages-pc2k-@2x.jpg 2x" media="(min-width: 1280px)" width="540" height="424">
+        <!-- Для великих екранів (1280px) -->
+        <source
+          srcset="
+            ../img/advantages/adventages-pc.jpg     1x,
+            ../img/advantages/adventages-pc-@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+          width="432"
+          height="424"
+        />
 
-  <!-- Для великих екранів (1280px) -->
-  <source srcset="../img/advantages/adventages-pc.jpg 1x, 
-                    ../img/advantages/adventages-pc-@2x.jpg 2x" media="(min-width: 1280px)" width="432" height="424">
+        <!-- Для планшетів (768px) -->
+        <source
+          srcset="
+            ../img/advantages/adventages-tablet.jpg     1x,
+            ../img/advantages/adventages-tablet-@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+          width="704"
+          height="424"
+        />
 
-  <!-- Для планшетів (768px) -->
-  <source srcset="../img/advantages/adventages-tablet.jpg 1x, 
-                      ../img/advantages/adventages-tablet-@2x.jpg 2x" media="(min-width: 768px)" width="704" height="424">
+        <!-- Для маленьких екранів (375px) -->
+        <source
+          srcset="
+            ../img/advantages/adventages-mobile.jpg     1x,
+            ../img/advantages/adventages-mobile-@2x.jpg 2x
+          "
+          media="(max-width: 375px)"
+          width="335"
+          height="424"
+        />
 
-
-  <!-- Для маленьких екранів (375px) -->
-  <source srcset="../img/advantages/adventages-mobile.jpg 1x, 
-                    ../img/advantages/adventages-mobile-@2x.jpg 2x" media="(max-width: 375px)" width="335" height="424">
-
-  <!-- Запасне зображення (для випадків, коли браузер не підтримує `picture`) -->
-  <img src="../img/advantages/adventages-mobile.jpg" alt="Luxury yacht interior" width="335" height="424">
-</picture>
-
-      
+        <!-- Запасне зображення (для випадків, коли браузер не підтримує `picture`) -->
+        <img
+          src="../img/advantages/adventages-mobile.jpg"
+          alt="Luxury yacht interior"
+          width="335"
+          height="424"
+        />
+      </picture>
     </div>
   </div>
 </section>
