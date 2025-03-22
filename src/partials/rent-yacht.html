@@ -1,3 +1,41 @@
-<section class="section">
-  <div class="container">rent-yacht</div>
+<section class="section rent-yacht-section">
+  <div class="container rent-yacht-container">
+    <div class="rent-wrap">
+      <h2 class="rent-yacht-title" id="rent-yacht">
+        Rent a yacht now
+      </h2>
+      <form class="rent-yacht-form" name="rent-form">
+        <label for="full-name" class="visually-hidden">Full Name</label>
+        <input class="form-input" type="text" name="full-name" placeholder="Full Name" required>
+        <label for="email" class="visually-hidden">Email</label>
+        <input class="form-input" type="email" name="email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          placeholder="Email" required>
+        <label for="phone-number" class="visually-hidden">Phone number</label>
+        <input class="form-input" type="tel" name="phone-number" pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+          title="+xx-xxx-xxx-xx-xx" placeholder="Phone number" required>
+        <label for="" class="visually-hidden">Comment</label>
+        <textarea class="form-textarea" name="comment" placeholder="Comment"></textarea>
+        <button class="form-btn" type="submit">Send</button>
+      </form>
+    </div>
+    <picture class="rent-picture">
+      <source srcset="
+                            /img/rent-yacht/pc2K.jpg  1x,
+                            /img/rent-yacht/pc2k@2x.jpg 2x
+                            " media="(min-width: 1440px)" />
+      <source srcset="
+                            /img/rent-yacht/pc.jpg    1x,
+                            /img/rent-yacht/pc@2x.jpg 2x
+                          " media="(min-width: 1280px)" />
+      <source srcset="
+                            /img/rent-yacht/tabl.jpg    1x,
+                            /img/rent-yacht/tabl@2x.jpg 2x
+                          " media="(min-width: 768px)" />
+      <source srcset="
+                            /img/rent-yacht/mob.jpg    1x,
+                            /img/rent-yacht/mob@2x.jpg 2x
+                          " media="(max-width: 767px)" />
+      <img class="rent-img" src="../img/rent-yacht/pride-pc.jpg" alt="LUXURY YAHTS" width="658" height="536" />
+    </picture>
+  </div>
 </section>
