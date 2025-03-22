@@ -153,16 +153,16 @@
 }
 
 @media (min-width: 1439.1px) {
-    .container-advantages {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            gap: 32px;
-            flex-wrap: nowrap;
-            padding-bottom: 0;
-            margin-bottom: 0;
-        }
+.container-advantages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: nowrap;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 
 .activities-container {
     height: 424px;
