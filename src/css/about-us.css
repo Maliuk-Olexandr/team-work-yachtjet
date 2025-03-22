@@ -1,21 +1,24 @@
 /* Глобальні стилі */
 .about-us {
-    padding: 40px 20px;
     background: #fbfbfb;
     border-radius: 24px;
-}
-
-.container-about {
-    max-width: 375px;
-    padding: 0 20px;
-    margin: 0 auto;
+    width: 335px;
+    height: 675px;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    margin: auto;
 }
 
 /* Контейнер контенту */
 .about-content {
-    display: flex;
-    align-items: center;
-    text-align: center;
+    max-width: 295px;
+}
+
+.container-about {
+    width: 295px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 /* Заголовок та тексти */
@@ -26,10 +29,6 @@
     letter-spacing: -0.02em;
     color: #1b414b;
     text-align: left;
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
 }
 
 .about-text {
@@ -40,8 +39,7 @@
     color: #1b414b;
     text-align: left;
     margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+
     margin-bottom: 20px;
 }
 
@@ -52,32 +50,45 @@
     letter-spacing: -0.02em;
     color: #040306;
     text-align: left;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 40px;
 }
 
 /* Зображення */
 .about-image {
-    width: 100%;
-    max-width: 500px;
     height: auto;
     border-radius: 0 24px 0 0;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .about-img {
     border-radius: 24px;
+    max-width: 335px;
+    margin-left: -20px;
 }
 
-/* Мобільна версія (320px - 375px) */
-@media (min-width: 320px) {}
-
-/* Мобільна версія стає адаптивною (від 375px) */
+/* Мобільні (375px) */
 @media (min-width: 375px) {}
 
 /* Планшети (768px) */
 @media (min-width: 768px) {
+    .about-us {
+        width: 704px;
+        height: 675px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .about-content {
+        max-width: 536px;
+        margin-left: 32px;
+        margin-top: 50px;
+    }
+
+    .container-about {
+        width: 389px;
+        margin-left: 32px;
+        margin-top: 50px;
+    }
+
     .about-title {
         font-size: 48px;
     }
@@ -90,10 +101,37 @@
         font-size: 13px;
         line-height: 1.15;
     }
+
+    .about-image {
+        width: 704px;
+        height: 470px;
+        margin-left: -12px;
+
+    }
 }
 
 /* Десктопи 1280px */
-@media (min-width: 1280px) {}
+@media (min-width: 1280px) {
+    .about-us {
+        width: 1180px;
+        height: 675px;
+    }
+
+    .about-content {
+        max-width: 537px;
+    }
+
+    .container-about {
+        width: 354px;
+    }
+
+    .about-image {
+        width: 1180px;
+        height: 470px;
+
+    }
+}
+
 
 /* Десктопи 1440px */
 @media (min-width: 1440px) {}
