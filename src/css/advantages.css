@@ -76,6 +76,10 @@
     counter-reset: item;
   }
 
+  .activities-container {
+    padding: 90px 32px;
+  }
+
   .activity-description {
     font-size: 13px;
     line-height: 1.15;
@@ -93,9 +97,8 @@
 /* ======================= DESKTOP (1280+) ======================= */
 @media (min-width: 1280px) {
   .advantages-container {
-    display: flex;
     flex-direction: row;
-    gap: 44px;
+    gap: 32px;
     flex-wrap: nowrap;
   }
 
@@ -107,6 +110,14 @@
   .activity-description {
     font-size: 13px;
     line-height: 1.15;
+  }
+
+  .image-container {
+    object-fit: cover;
+  }
+
+  .activities-list {
+    gap: 44px;
   }
 }
 
@@ -121,7 +132,6 @@
   }
 
   .activity-description {
-    margin: 0;
     font-size: 13px;
     line-height: 115%;
   }
