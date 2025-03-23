@@ -79,7 +79,6 @@
     margin: 0;
     list-style: none;
     counter-reset: item;
-    background-color: #1b414b;
   }
 
   .activities-container {
@@ -91,10 +90,6 @@
     line-height: 1.15;
   }
 
-  .image-container {
-    width: 704px;
-  }
-
   .activity-top::before {
     font-size: 32px;
   }
@@ -104,21 +99,11 @@
 @media (min-width: 1280px) {
   .activities-container {
     max-width: 716px;
-    max-height: 424px;
+    padding: 90px 50px;
   }
 
   .advantages-container {
     flex-direction: row;
-    flex-wrap: nowrap;
-  }
-
-  .activities-container {
-    padding: 90px 50px;
-  }
-
-  .activities-list {
-    gap: 44px;
-    background-color: #1b414b;
   }
 }
 
@@ -126,5 +111,6 @@
 @media (min-width: 1440px) {
   .activities-container {
     max-width: 768px;
+    gap: 32px;
   }
 }
