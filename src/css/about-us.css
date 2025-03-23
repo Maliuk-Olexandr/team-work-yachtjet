@@ -12,13 +12,11 @@
 
 /* Контейнер контенту */
 .about-content {
-    max-width: 295px;
+    max-width: 280px;
 }
 
 .container-about {
     width: 295px;
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 /* Заголовок та тексти */
@@ -57,16 +55,26 @@
     height: auto;
     border-radius: 0 24px 0 0;
     margin-top: 40px;
+    max-width: 100%;
 }
 
 .about-img {
     border-radius: 24px;
-    max-width: 335px;
-    margin-left: -20px;
+    width: 100%;
+    height: auto;
 }
 
 /* Мобільні (375px) */
-@media (min-width: 375px) {}
+@media (min-width: 375px) {
+    .about-content {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .container-about {
+        margin: 40px 20px 40px 20px;
+    }
+}
 
 /* Планшети (768px) */
 @media (min-width: 768px) {
@@ -85,8 +93,7 @@
 
     .container-about {
         width: 389px;
-        margin-left: 32px;
-        margin-top: 50px;
+        margin: 50px 32px 50px 32px;
     }
 
     .about-title {
@@ -103,18 +110,31 @@
     }
 
     .about-image {
-        width: 704px;
-        height: 470px;
-        margin-left: -12px;
+        max-width: 704px;
+    }
 
+    .about-img {
+        max-width: 704px;
     }
 }
 
 /* Десктопи 1280px */
 @media (min-width: 1280px) {
     .about-us {
-        width: 1180px;
+        max-width: 1180px;
         height: 675px;
+        margin-left: 50px;
+        margin-right: 50px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+
+    }
+
+    .about-div-section {
+        width: calc((100% - 32px) / 2);
     }
 
     .about-content {
@@ -123,15 +143,15 @@
 
     .container-about {
         width: 354px;
+
     }
 
     .about-image {
-        width: 1180px;
+        max-width: 1180px;
         height: 470px;
 
     }
 }
-
 
 /* Десктопи 1440px */
 @media (min-width: 1440px) {}
