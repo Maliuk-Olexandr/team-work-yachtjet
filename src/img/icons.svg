@@ -1,12 +1,11 @@
 <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <symbol id="icon-burger" viewBox="0 0 32 32">
-      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.857" d="M4 20h24M4 12h24" />
-    </symbol>
+    <symbol id="icon-vector" viewBox="0 0 77 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="8" d="M4.8 27.2h67.2M4.8 4.8h67.2"></path>
+</symbol>
     <symbol id="icon-close" viewBox="0 0 32 32">
-      <path
-        d="m25.143 8.983-2.126-2.126-7.016 7.016-7.016-7.016-2.126 2.126L13.875 16l-7.016 7.016 2.126 2.126 7.017-7.016 7.016 7.016 2.126-2.126L18.128 16l7.016-7.017z" />
-    </symbol>
+<path fill="#055545" style="fill: var(--color1, #055545)" d="M32 3.721l-3.721-3.721-12.279 12.279-12.279-12.279-3.721 3.721 12.279 12.279-12.279 12.279 3.721 3.721 12.279-12.279 12.279 12.279 3.721-3.721-12.279-12.279 12.279-12.279z"></path>
+</symbol>
     <symbol id="icon-facebook" viewBox="0 0 32 32">
       <path
         d="M29.333 16.033C29.333 8.655 23.36 2.666 16 2.666S2.667 8.654 2.667 16.033c0 6.469 4.587 11.856 10.667 13.099v-9.089h-2.667v-4.01h2.667v-3.342a4.677 4.677 0 0 1 4.667-4.678h3.333v4.01h-2.667c-.733 0-1.333.601-1.333 1.337v2.673h4v4.01h-4v9.29c6.733-.668 12-6.363 12-13.3z" />
