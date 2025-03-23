@@ -28,13 +28,10 @@
     font-size: 14px;
     letter-spacing: -0.03em;
     color: #fbfbfb;
-    width: 52px;
-    display: flex;
 }
 
 .footer-nav-list {
     display: flex;
-    max-width: 206px;
     justify-content: space-between;
     gap: 4px;
 }
@@ -141,11 +138,6 @@
 
     .footer-logo {
         font-size: 20px;
-        width: 74px;
-    }
-
-    .footer-nav-list {
-        max-width: 281px;
     }
 
     .footer-nav-item {
@@ -211,5 +203,3 @@
 }
 
 /* end region desktop 1440 */
-
-/* test */
