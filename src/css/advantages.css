@@ -67,6 +67,10 @@
 
 /* ======================= TABLET ======================= */
 @media (min-width: 768px) {
+  .advantages-container {
+    gap: 32px;
+  }
+
   .activities-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -105,7 +109,6 @@
 
   .advantages-container {
     flex-direction: row;
-    gap: 32px;
     flex-wrap: nowrap;
   }
 
@@ -113,17 +116,9 @@
     padding: 90px 50px;
   }
 
-  .activity-description {
-    font-size: 13px;
-    line-height: 1.15;
-  }
-
   .activities-list {
     gap: 44px;
-  }
-
-  .activity-top::before {
-    font-size: 32px;
+    background-color: #1b414b;
   }
 }
 
@@ -131,10 +126,5 @@
 @media (min-width: 1440px) {
   .activities-container {
     max-width: 768px;
-  }
-
-  .activity-description {
-    font-size: 13px;
-    line-height: 115%;
   }
 }
