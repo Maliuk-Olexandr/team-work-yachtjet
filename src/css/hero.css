@@ -3,9 +3,6 @@
 }
 
 .hero .container {
-  margin: 0 auto;
-  min-width: 320px;
-  max-width: 375px;
   background-image: linear-gradient(
       rgba(17, 19, 31, 0.1),
       rgba(17, 19, 31, 0.1)
