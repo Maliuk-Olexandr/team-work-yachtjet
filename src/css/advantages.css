@@ -66,10 +66,6 @@
 
 /* ======================= TABLET ======================= */
 @media (min-width: 768px) {
-  .activities-container {
-    max-width: 716px;
-  }
-
   .activities-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -101,7 +97,7 @@
 /* ======================= DESKTOP (1280+) ======================= */
 @media (min-width: 1280px) {
   .activities-container {
-    max-width: 768px;
+    max-width: 716px;
     max-height: 424px;
   }
 
@@ -131,6 +127,10 @@
 
 /* ========== DESKTOP 1440px+ specific widths ========== */
 @media (min-width: 1440px) {
+  .activities-container {
+    max-width: 768px;
+  }
+
   .activities-list {
     gap: 59px 32px;
   }
@@ -138,9 +138,5 @@
   .activity-description {
     font-size: 13px;
     line-height: 115%;
-  }
-
-  .image-container {
-    max-width: 540px;
   }
 }
