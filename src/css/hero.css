@@ -7,22 +7,15 @@
       rgba(17, 19, 31, 0.1),
       rgba(17, 19, 31, 0.1)
     ),
-    url(/img/hero/background-mobile.jpg);
+    image-set(
+      url(/img/hero/background-mobile.jpg) 1x,
+      url(/img/hero/background-mobile-@2x.jpg) 2x
+    );
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: 260px;
   padding-bottom: 302px;
-}
-
-@media screen and (min-resolution: 2x) {
-  .hero .container {
-    background-image: linear-gradient(
-        rgba(17, 19, 31, 0.1),
-        rgba(17, 19, 31, 0.1)
-      ),
-      url(/img/hero/background-mobile-@2x.jpg);
-  }
 }
 
 .hero-title {
@@ -74,7 +67,10 @@
         rgba(17, 19, 31, 0.1),
         rgba(17, 19, 31, 0.1)
       ),
-      url(/img/hero/background-tablet.jpg);
+      image-set(
+        url(/img/hero/background-tablet.jpg) 1x,
+        url(/img/hero/background-tablet-@2x.jpg) 2x
+      );
     padding-top: 280px;
     padding-bottom: 282px;
     padding-left: 58px;
@@ -104,17 +100,6 @@
     min-height: 52px;
   }
 }
-
-@media screen and (min-width: 768px) and (min-resolution: 2x) {
-  .hero .container {
-    background-image: linear-gradient(
-        rgba(17, 19, 31, 0.1),
-        rgba(17, 19, 31, 0.1)
-      ),
-      url(/img/hero/background-tablet-@2x.jpg);
-  }
-}
-
 /*#endregion Tablet*/
 
 /*#region Desktop*/
@@ -125,7 +110,10 @@
         rgba(17, 19, 31, 0.1),
         rgba(17, 19, 31, 0.1)
       ),
-      url(/img/hero/background-pc.jpg);
+      image-set(
+        url(/img/hero/background-pc.jpg) 1x,
+        url(/img/hero/background-pc-@2x.jpg) 2x
+      );
     padding: 235px 139px 215px;
   }
   .hero-title {
@@ -133,16 +121,6 @@
     font-size: 80px;
   }
 }
-@media screen and (min-width: 1280px) and (min-resolution: 2x) {
-  .hero .container {
-    background-image: linear-gradient(
-        rgba(17, 19, 31, 0.1),
-        rgba(17, 19, 31, 0.1)
-      ),
-      url(/img/hero/background-pc-@2x.jpg);
-  }
-}
-
 /*#endregion Desktop*/
 
 /*#region Desctop-2K*/
@@ -153,18 +131,11 @@
         rgba(17, 19, 31, 0.1),
         rgba(17, 19, 31, 0.1)
       ),
-      url(/img/hero/background-pc2k.jpg);
-
+      image-set(
+        url(/img/hero/background-pc2k.jpg) 1x,
+        url(/img/hero/background-pc2k-@2x.jpg) 2x
+      );
     padding: 235px 219px 215px;
-  }
-}
-@media screen and (min-width: 1440px) and (min-resolution: 2x) {
-  .hero .container {
-    background-image: linear-gradient(
-        rgba(17, 19, 31, 0.1),
-        rgba(17, 19, 31, 0.1)
-      ),
-      url(/img/hero/background-pc2k-@2x.jpg);
   }
 }
 /*#endregion Desctop-2K*/
