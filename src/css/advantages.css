@@ -112,10 +112,6 @@
     line-height: 1.15;
   }
 
-  .image-container {
-    object-fit: cover;
-  }
-
   .activities-list {
     gap: 44px;
   }
