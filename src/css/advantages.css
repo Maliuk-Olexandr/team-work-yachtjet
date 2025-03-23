@@ -66,6 +66,10 @@
 
 /* ======================= TABLET ======================= */
 @media (min-width: 768px) {
+  .activities-container {
+    max-width: 716px;
+  }
+
   .activities-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -96,6 +100,11 @@
 
 /* ======================= DESKTOP (1280+) ======================= */
 @media (min-width: 1280px) {
+  .activities-container {
+    max-width: 768px;
+    max-height: 424px;
+  }
+
   .advantages-container {
     flex-direction: row;
     gap: 32px;
@@ -103,7 +112,6 @@
   }
 
   .activities-container {
-    height: 424px;
     padding: 90px 50px;
   }
 
@@ -115,14 +123,14 @@
   .activities-list {
     gap: 44px;
   }
+
+  .activity-top::before {
+    font-size: 32px;
+  }
 }
 
 /* ========== DESKTOP 1440px+ specific widths ========== */
 @media (min-width: 1440px) {
-  .activities-container {
-    width: 768px;
-  }
-
   .activities-list {
     gap: 59px 32px;
   }
