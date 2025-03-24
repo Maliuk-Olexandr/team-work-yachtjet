@@ -7,14 +7,7 @@
     border-radius: 24px 24px 0 0;
     position: relative;
     padding: 40px 30px 20px;
-    max-width: 1240px;
     margin: 0 auto;
-}
-
-.footer-container-nav {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 80px;
 }
 
 @media (max-width: 360px) {
@@ -23,6 +16,12 @@
         padding: 40px 10px 20px;
     }
 
+}
+
+.footer-container-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .footer-logo {
@@ -129,6 +128,7 @@
 
     .footer-container {
         padding: 50px 48px 20px;
+        max-width: 706px;
     }
 
     .footer-container-nav {
@@ -179,6 +179,7 @@
 
     .footer-container {
         padding: 50px 75px 20px;
+        max-width: 1180px;
     }
 
     .footer-container-nav {
@@ -201,6 +202,10 @@
 @media screen and (min-width: 1440px) {
     .footer-container-nav {
         gap: 409px;
+    }
+
+    .footer-container {
+        max-width: 1340px;
     }
 }
 
