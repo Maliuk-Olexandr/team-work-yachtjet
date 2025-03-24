@@ -110,6 +110,10 @@ position: relative;
         background-color: #1b414b;
     }
 
+    .current{
+    background-color: #1b414b
+    }
+
     .burger-btn {
         display: none;
     }
