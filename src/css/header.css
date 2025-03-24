@@ -1,0 +1,10 @@
+.header {
+  position: relative;
+  height: 20px;
+  background-color: #d51919;
+}
+.header-container {
+  top: 40px;
+  position: absolute;
+  background-color: #8f2323;
+}
