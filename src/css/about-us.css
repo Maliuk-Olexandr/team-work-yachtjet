@@ -133,17 +133,16 @@
 
     }
 
-    .about-div-section {
-        width: calc((100% - 32px) / 2);
-    }
+    .about-div-section {}
 
     .about-content {
         max-width: 537px;
+        flex-basis: 50%;
     }
 
     .container-about {
         width: 354px;
-
+        flex-basis: 50%;
     }
 
     .about-image {
