@@ -56,7 +56,19 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.9);
 }
+
+.our-yacht-subtitle:hover,
+.our-yacht-subtitle:focus {
+  max-width: none;
+  overflow: visible;
+  white-space: normal;
+  transform: scale(1);
+}
+
+
 
 .our-yacht-topic {
   font-weight: 400;
@@ -93,15 +105,15 @@
   flex-direction: column;
 }
 
-#slide1:checked ~ .our-yachts-list .arrow {
+#slide1:checked~.our-yachts-list .arrow {
   display: block;
 }
 
-#slide2:checked ~ .our-yachts-list .benetti {
+#slide2:checked~.our-yachts-list .benetti {
   display: block;
 }
 
-#slide3:checked ~ .our-yachts-list .belle {
+#slide3:checked~.our-yachts-list .belle {
   display: block;
 }
 
@@ -120,9 +132,9 @@
   transition: background-color 0.3s, width 0.3s, border-radius 0.3s;
 }
 
-#slide1:checked ~ .slider-nav label[for='slide1'],
-#slide2:checked ~ .slider-nav label[for='slide2'],
-#slide3:checked ~ .slider-nav label[for='slide3'] {
+#slide1:checked~.slider-nav label[for='slide1'],
+#slide2:checked~.slider-nav label[for='slide2'],
+#slide3:checked~.slider-nav label[for='slide3'] {
   background: #1b414b;
   width: 32px;
   border-radius: 12px;
@@ -192,18 +204,18 @@ input[type='radio'] {
     line-height: 1.18;
   }
 
-  #slide1:checked ~ .our-yachts-list .arrow,
-  #slide1:checked ~ .our-yachts-list .benetti {
+  #slide1:checked~.our-yachts-list .arrow,
+  #slide1:checked~.our-yachts-list .benetti {
     display: block;
   }
 
-  #slide2:checked ~ .our-yachts-list .benetti,
-  #slide2:checked ~ .our-yachts-list .belle {
+  #slide2:checked~.our-yachts-list .benetti,
+  #slide2:checked~.our-yachts-list .belle {
     display: block;
   }
 
-  #slide3:checked ~ .our-yachts-list .belle,
-  #slide3:checked ~ .our-yachts-list .arrow {
+  #slide3:checked~.our-yachts-list .belle,
+  #slide3:checked~.our-yachts-list .arrow {
     display: block;
   }
 
