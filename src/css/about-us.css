@@ -1,32 +1,16 @@
-/* Глобальні стилі */
 .about-us {
-    background: #fbfbfb;
-    border-radius: 24px;
-    width: 335px;
-    height: 675px;
-    display: flex;
-    max-width: 100%;
-    justify-content: center;
-    margin: auto;
+    position: relative;
+    transform: translateY(-59px);
 }
 
-/* Контейнер контенту */
-.about-content {
-    max-width: 280px;
-}
-
-.container-about {
-    width: 295px;
-}
-
-/* Заголовок та тексти */
 .about-title {
     font-weight: 500;
     font-size: 28px;
     line-height: 1;
     letter-spacing: -0.02em;
     color: #1b414b;
-    text-align: left;
+    margin-bottom: 20px;
+    max-width: 280px;
 }
 
 .about-text {
@@ -35,10 +19,8 @@
     line-height: 1;
     letter-spacing: -0.02em;
     color: #1b414b;
-    text-align: left;
-    margin-top: 20px;
-
     margin-bottom: 20px;
+
 }
 
 .about-text-two {
@@ -47,57 +29,39 @@
     line-height: 1.17;
     letter-spacing: -0.02em;
     color: #040306;
-    text-align: left;
+    opacity: 0.4;
 }
 
-/* Зображення */
+.about-content {
+    background: #fbfbfb;
+    border-radius: 26px;
+    padding: 40px 20px 435px;
+}
+
 .about-image {
-    height: auto;
-    border-radius: 0 24px 0 0;
-    margin-top: 40px;
-    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 26px;
+    width: calc(100% - 40px);
+    overflow: hidden;
 }
 
-.about-img {
-    border-radius: 24px;
-    width: 100%;
-    height: auto;
+.container-about {
+    max-width: 280px;
 }
 
-/* Мобільні (375px) */
-@media (min-width: 375px) {
-    .about-content {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .container-about {
-        margin: 40px 20px 40px 20px;
-    }
-}
-
-/* Планшети (768px) */
 @media (min-width: 768px) {
-    .about-us {
-        width: 704px;
-        height: 675px;
-        margin-left: 32px;
-        margin-right: 32px;
+    .about-image {
+        width: calc(100% - 64px);
     }
 
     .about-content {
-        max-width: 536px;
-        margin-left: 32px;
-        margin-top: 50px;
-    }
-
-    .container-about {
-        width: 389px;
-        margin: 50px 32px 50px 32px;
+        padding: 50px 32px 520px;
     }
 
     .about-title {
         font-size: 48px;
+        max-width: 536px;
     }
 
     .about-text {
@@ -108,49 +72,25 @@
         font-size: 13px;
         line-height: 1.15;
     }
+}
 
-    .about-image {
-        max-width: 704px;
-    }
-
-    .about-img {
-        max-width: 704px;
-    }
+.container-about {
+    max-width: 370px;
 }
 
 /* Десктопи 1280px */
 @media (min-width: 1280px) {
-    .about-us {
-        max-width: 1180px;
-        height: 675px;
-        margin-left: 50px;
-        margin-right: 50px;
-
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-between;
-
+    .about-image {
+        width: calc(100% - 100px);
     }
-
-    .about-div-section {}
 
     .about-content {
-        max-width: 537px;
-        flex-basis: 50%;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 50px 570px;
     }
 
-    .container-about {
-        width: 354px;
-        flex-basis: 50%;
-    }
-
-    .about-image {
-        max-width: 1180px;
-        height: 470px;
-
+    .about-title {
+        margin-bottom: 0;
     }
 }
-
-/* Десктопи 1440px */
-@media (min-width: 1440px) {}
