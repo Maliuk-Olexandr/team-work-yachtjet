@@ -1,10 +1,45 @@
 .header {
   position: relative;
-  height: 20px;
-  background-color: #d51919;
+  padding: 0 20px;
+  /* ховаємо наш хедер */
+  height: 0;
 }
 .header-container {
-  top: 40px;
   position: absolute;
+  /* дочірній елемент приймає ширину батьківського,
+   нажаль при розрахуванні ширини не враховуються падінги
+   і їх приходиться рахувати в ручну
+   в нашому випадку 20+20px */
+  width: calc(100% - 40px);
+
+  /* ці стилі для наглядності */
+  top: 40px;
   background-color: #8f2323;
+}
+/* добавляємо в точках переходу */
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .header {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .header-container {
+    width: calc(100% - 64px);
+  }
+}
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 50px;
+  }
+   .header-container {
+    width: calc(100% - 100px);
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
 }
