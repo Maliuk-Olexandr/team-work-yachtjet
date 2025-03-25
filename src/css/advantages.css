@@ -1,4 +1,4 @@
-/* .advantages-box {
+.advantages-box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +31,7 @@
     margin-bottom: 18px;
 }
 
-.activity-top::before {
+.activity-tell::before {
     content: counter(item, decimal-leading-zero);
     display: block;
     font-weight: 500;
@@ -42,7 +42,7 @@
     margin-bottom: 18px;
 }
 
-.activity-top::after {
+.activity-tell::after {
     content: '';
     display: block;
     width: 100%;
@@ -65,7 +65,7 @@
     overflow: hidden;
 }
 
-/*TABLET*
+/*TABLET*/
 @media (min-width: 768px) {
     .advantages-container {
         gap: 32px;
@@ -95,7 +95,7 @@
     }
 }
 
-/* DESKTOP 1280 *
+/* DESKTOP 1280 */
 @media (min-width: 1280px) {
     .activities-container {
         max-width: 716px;
@@ -107,10 +107,10 @@
     }
 }
 
-/*DESKTOP 1440px*
+/*DESKTOP 1440px*/
 @media (min-width: 1440px) {
     .activities-container {
         max-width: 768px;
         gap: 32px;
     }
-} */
+}
