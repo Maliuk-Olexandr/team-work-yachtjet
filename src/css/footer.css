@@ -9,18 +9,18 @@
     padding: 40px 30px 20px;
 }
 
-.footer-container-nav {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 80px;
-}
-
 @media (max-width: 360px) {
 
     .footer-container {
         padding: 40px 10px 20px;
     }
 
+}
+
+.footer-container-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .footer-logo {
@@ -119,7 +119,6 @@
 }
 
 /* start region tablet */
-
 @media (min-width: 768px) {
     .footer {
         padding: 0 16px;
@@ -165,11 +164,9 @@
         font-size: 14px;
     }
 }
-
 /* end region tablet */
 
 /* start region desktop 1280 */
-
 @media (min-width: 1280px) {
     .footer {
         padding: 0 25px;
@@ -191,15 +188,12 @@
         max-width: 640px;
     }
 }
-
 /* end region desktop 1280 */
 
 /* start region desktop 1440 */
-
 @media screen and (min-width: 1440px) {
     .footer-container-nav {
         gap: 409px;
     }
 }
-
 /* end region desktop 1440 */
