@@ -126,6 +126,10 @@ input[type="radio"] {
     }
 }
 @media screen and (min-width: 1280px) {
+    .customers-list {
+    margin-bottom: 0px;
+    }
+
     .reviews-title {
         max-width: 751px;
     }
@@ -138,8 +142,9 @@ input[type="radio"] {
         display: flex;
         width: calc((100% - 52px) / 3);
     }
-    }
     .customers-slider-nav,
     input[type='radio'] {
         display: none;
     }
+    }
+    
