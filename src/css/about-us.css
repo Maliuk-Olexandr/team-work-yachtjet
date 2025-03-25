@@ -1,3 +1,7 @@
+.section-about-us{
+    padding: 0;
+}
+
 .about-us {
     position: relative;
     transform: translateY(-59px);
