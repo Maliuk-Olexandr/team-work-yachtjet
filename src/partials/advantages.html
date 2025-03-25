@@ -1,3 +1,101 @@
 <section class="section">
-  <div class="container">advantages</div>
+  <h2 class="visually-hidden">Advantages For The Best</h2>
+  <div class="container advantages-container">
+    <div class="activities-container">
+      <ol class="activities-list">
+        <li class="activity-item">
+          <div class="activity-top">
+            <!-- псевдоелемент для номера буде тут -->
+            <!-- лінія буде тут же -->
+          </div>
+          <p class="activity-description">
+            Swimming and water sports: try your hand at water skiing
+          </p>
+        </li>
+
+        <li class="activity-item">
+          <div class="activity-top">
+            <!-- псевдоелемент для номера буде тут -->
+            <!-- лінія буде тут же -->
+          </div>
+
+          <p class="activity-description">
+            Fishing: try to catch your own dinner
+          </p>
+        </li>
+
+        <li class="activity-item">
+          <div class="activity-top">
+            <!-- псевдоелемент для номера буде тут -->
+            <!-- лінія буде тут же -->
+          </div>
+
+          <!-- <span class="activities-list-li">03</span> -->
+          <p class="activity-description">
+            Sightseeing tours: take a shore or island tour, enjoy the views and
+            sunsets from the water
+          </p>
+        </li>
+
+        <li class="activity-item">
+          <div class="activity-top">
+            <!-- псевдоелемент для номера буде тут -->
+            <!-- лінія буде тут же -->
+          </div>
+
+          <!-- <span class="activities-list-li">04</span> -->
+          <p class="activity-description">
+            Rest and relaxation: read a book or listen to music while enjoying
+            the outdoor atmosphere.
+          </p>
+        </li>
+      </ol>
+    </div>
+
+    <picture class="image-container">
+      <!-- Для великих екранів (1440px) -->
+      <source
+        srcset="
+          /img/advantages/adventages-pc2k.jpg     1x,
+          /img/advantages/adventages-pc2k-@2x.jpg 2x
+        "
+        media="(min-width: 1440px)"
+      />
+
+      <!-- Для великих екранів (1280px) -->
+      <source
+        srcset="
+          /img/advantages/adventages-pc.jpg     1x,
+          /img/advantages/adventages-pc-@2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+
+      <!-- Для планшетів (768px) -->
+      <source
+        srcset="
+          /img/advantages/adventages-tablet.jpg     1x,
+          /img/advantages/adventages-tablet-@2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+
+      <!-- Для маленьких екранів (375px) -->
+      <source
+        srcset="
+          /img/advantages/adventages-mobile.jpg     1x,
+          /img/advantages/adventages-mobile-@2x.jpg 2x
+        "
+        media="(max-width: 767px)"
+      />
+
+      <!-- Запасне зображення (для випадків, коли браузер не підтримує `picture`) -->
+      <img
+        src="/img/advantages/adventages-mobile.jpg"
+        alt="Luxury yacht interior"
+        width="704"
+        height="424"
+      />
+    </picture>
+  </div>
 </section>

@@ -1,0 +1,96 @@
+.about-us {
+    position: relative;
+    transform: translateY(-59px);
+}
+
+.about-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    margin-bottom: 20px;
+    max-width: 280px;
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    margin-bottom: 20px;
+
+}
+
+.about-text-two {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.about-content {
+    background: #fbfbfb;
+    border-radius: 26px;
+    padding: 40px 20px 435px;
+}
+
+.about-image {
+    position: absolute;
+    bottom: 0;
+    border-radius: 26px;
+    width: calc(100% - 40px);
+    overflow: hidden;
+}
+
+.container-about {
+    max-width: 280px;
+}
+
+@media (min-width: 768px) {
+    .about-image {
+        width: calc(100% - 64px);
+    }
+
+    .about-content {
+        padding: 50px 32px 520px;
+    }
+
+    .about-title {
+        font-size: 48px;
+        max-width: 536px;
+    }
+
+    .about-text {
+        font-size: 23px;
+    }
+
+    .about-text-two {
+        font-size: 13px;
+        line-height: 1.15;
+    }
+}
+
+.container-about {
+    max-width: 370px;
+}
+
+/* Десктопи 1280px */
+@media (min-width: 1280px) {
+    .about-image {
+        width: calc(100% - 100px);
+    }
+
+    .about-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 50px 570px;
+    }
+
+    .about-title {
+        margin-bottom: 0;
+    }
+}
