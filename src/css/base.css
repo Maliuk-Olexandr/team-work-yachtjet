@@ -10,7 +10,9 @@
   white-space: nowrap;
   width: 1px;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #0e1823;
   color: #040306;
