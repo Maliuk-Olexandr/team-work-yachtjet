@@ -131,7 +131,7 @@
   width: 100%;
   max-width: 335px;
   min-height: 42px;
-  padding: 7px 20px;
+  padding: 0 20px;
   justify-content: space-between;
   align-items: center;
   border-radius: 8px;
@@ -173,4 +173,8 @@
 .icon-modal-svg:hover,
 .icon:focus {
   fill: #fbfbfbcc;
+}
+/* только по приколу */
+.mobile {
+  font-size: 14px;
 }
