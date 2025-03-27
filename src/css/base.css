@@ -24,6 +24,7 @@ body {
 
 a,
 button,
+svg,
 input,
 input::placeholder  {
   transition-duration: 250ms;
