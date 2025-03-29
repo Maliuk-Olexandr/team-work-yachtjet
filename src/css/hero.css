@@ -8,8 +8,8 @@
       rgba(17, 19, 31, 0.1)
     ),
     image-set(
-      url(/img/hero/background-mobile.jpg) 1x,
-      url(/img/hero/background-mobile-@2x.jpg) 2x
+      url(/img/hero/background-mobile.webp) 1x,
+      url(/img/hero/background-mobile-@2x.webp) 2x
     );
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,8 +68,8 @@
         rgba(17, 19, 31, 0.1)
       ),
       image-set(
-        url(/img/hero/background-tablet.jpg) 1x,
-        url(/img/hero/background-tablet-@2x.jpg) 2x
+        url(/img/hero/background-tablet.webp) 1x,
+        url(/img/hero/background-tablet-@2x.webp) 2x
       );
     padding-top: 280px;
     padding-bottom: 282px;
@@ -111,8 +111,8 @@
         rgba(17, 19, 31, 0.1)
       ),
       image-set(
-        url(/img/hero/background-pc.jpg) 1x,
-        url(/img/hero/background-pc-@2x.jpg) 2x
+        url(/img/hero/background-pc.webp) 1x,
+        url(/img/hero/background-pc-@2x.webp) 2x
       );
     padding: 235px 139px 215px;
   }
@@ -132,8 +132,8 @@
         rgba(17, 19, 31, 0.1)
       ),
       image-set(
-        url(/img/hero/background-pc2k.jpg) 1x,
-        url(/img/hero/background-pc2k-@2x.jpg) 2x
+        url(/img/hero/background-pc2k.webp) 1x,
+        url(/img/hero/background-pc2k-@2x.webp) 2x
       );
     padding: 235px 219px 215px;
   }
